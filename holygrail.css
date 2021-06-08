@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+}
+
+header, footer{
+    height : 25vh;
+    background-color: blue;
+}
+
+.container{
+    display: flex;
+}
+
+.nav, .content, .ads{
+    height:50vh;
+}
+
+.nav, .ads{
+    width:25vw;
+    background-color:yellow;
+}
+.content{
+    width:50vw;
+    background-color:tomato;
+}
